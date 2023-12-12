@@ -1,0 +1,291 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+.container {
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 0 15px;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container a {
+  padding: 24px 0;
+}
+
+.nav-wrap {
+  align-items: center;
+}
+
+nav,
+address {
+  display: flex;
+}
+
+span.logo {
+  color: #2e2f42;
+}
+
+.main-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover {
+  color: #404bbf;
+}
+
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address-wrap {
+  font-style: normal;
+}
+
+.contact-menu {
+  display: flex;
+  gap: 40px;
+  align-self: center;
+}
+
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.address-link:hover {
+  color: #404bbf;
+}
+
+.address-link:focus {
+  color: #404bbf;
+}
+
+.solutions-wrap {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+.solutions-wrap .container {
+  text-align: center;
+}
+
+.first-header-class {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: block;
+  min-width: 169px;
+  margin: 48px auto 0 auto;
+  height: 56px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
+}
+
+.features {
+  padding: 120px 0 120px 0;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
+.second-header-class {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our-team-wrap .second-header-class {
+  margin-bottom: 72px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list-element {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.third-header-class {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.features .third-header-class {
+  margin-bottom: 8px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+}
+
+.our-team-wrap {
+  background-color: #f4f4fd;
+  padding: 120px 0 120px 0;
+}
+
+.our-team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-list img,
+.our-portfolio-list img {
+  display: block;
+}
+
+.our-team-card {
+  background-color: #ffffff;
+  width: calc((100% - 72) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.person-desc {
+  padding: 32px 0;
+}
+
+.our-portfolio-wrap .second-header-class {
+  margin-bottom: 72px;
+}
+
+.our-portfolio-wrap {
+  padding: 120px 0 120px 0;
+}
+
+.our-portfolio-card {
+  background-color: #ffffff;
+  width: calc((100% - 48px) / 3);
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.app-desc {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.our-portfolio-wrap .third-header-class {
+  margin-bottom: 8px;
+}
+
+.footer-wrap {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.text-footer {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  max-width: 264px;
+}
+
+.logo-footer {
+  color: #f4f4fd;
+}
+
+.footer-wrap .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
