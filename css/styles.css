@@ -224,11 +224,11 @@ span.logo {
   margin-bottom: 8px;
 }
 
-.features-icon-svg {
+svg.icon {
   width: 64px;
   height: 64px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: 24px 100px 24px 100px;
 }
 
 .third-header-class {
@@ -243,6 +243,7 @@ span.logo {
 
 .features .third-header-class {
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .text {
@@ -251,6 +252,10 @@ span.logo {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+
+.features .text {
+  text-align: left;
 }
 
 .our-team-wrap {
