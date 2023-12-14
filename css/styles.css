@@ -77,9 +77,12 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav_menu__link:hover {
+.nav__menu__link:hover {
   color: #404bbf;
 }
 
@@ -114,6 +117,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address__menu__link:hover {
@@ -167,6 +173,9 @@ ul {
   margin: 48px auto 0 auto;
   height: 56px;
   border-radius: 4px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solutions__button:hover {
@@ -265,6 +274,7 @@ ul {
   background-color: #ffffff;
   width: calc((100% - 72) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .our-team__list__item__image,
@@ -293,11 +303,22 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team__list__item__icon__item__svg {
-  width: 16px;
-  height: 16px;
+.our-team__list__item__icon__item:hover {
+  background-color: #404bbf;
+}
+
+.our-team__list__item__icon__item__link {
+  position: absolute;
+  margin-left: -8px;
+  margin-top: -8px;
+  top: 50%;
+  left: 50%;
 }
 
 .our-portfolio {
@@ -318,9 +339,15 @@ ul {
 .our-portfolio__list__item {
   background-color: #ffffff;
   width: calc((100% - 48px) / 3);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-portfolio__list__item:hover .overlay p {
+.our-portfolio__list__item:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.our-portfolio__list__item:hover  .overlay__text {
   transform: translateY(0);
 }
 
@@ -405,12 +432,20 @@ ul {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__list__item__list__icons__item__svg {
-  width: 24px;
-  height: 24px;
+.footer__list__item__list__icons__item:hover {
+  background-color: #31d0aa;
+}
+
+.footer__list__item__list__icons__item__link {
+  position: absolute;
+  margin-left: -12px;
+  margin-top: -12px;
+  top: 50%;
+  left: 50%;
 }
