@@ -411,49 +411,56 @@ ul {
   max-width: 264px;
 }
 
-.footer__list__item__text {
+.footer__list__social__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .footer__list {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
 }
 
-.footer__list__item__text {
-  margin-top: 0;
+.footer__list__logo-and-p {
+  margin-right: 120px
 }
 
-.footer__list__item__list__icons {
+
+.footer__list__item__social__icons {
   display: flex;
   gap: 16px;
-  justify-content: center;
-  align-items: center;
 }
 
-.footer__list__item__list__icons__item {
+.footer__list__item__social__icons__item {
   width: 40px;
   height: 40px;
+}
+
+.footer__list__item__list__icons__item__link {
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__list__item__list__icons__item:hover {
+.footer__list__item__list__icons__item__link:hover {
   background-color: #31d0aa;
 }
 
-.footer__list__item__list__icons__item__link {
-  position: absolute;
-  margin-left: -12px;
-  margin-top: -12px;
-  top: 50%;
-  left: 50%;
+.footer__list__item__list__icons__item__link:focus {
+  background-color: #31d0aa;
+}
+
+.footer__list__item__social__icons__item__svg {
+  fill: #f4f4fd;
 }
