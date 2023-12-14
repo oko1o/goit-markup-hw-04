@@ -440,7 +440,7 @@ ul {
   height: 40px;
 }
 
-.footer__list__item__list__icons__item__link {
+.footer__list__item__social__icons__item__link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -453,11 +453,11 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__list__item__list__icons__item__link:hover {
+.footer__list__item__social__icons__item__link:hover {
   background-color: #31d0aa;
 }
 
-.footer__list__item__list__icons__item__link:focus {
+.footer__list__item__social__icons__item__link:focus {
   background-color: #31d0aa;
 }
 
