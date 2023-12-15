@@ -421,6 +421,10 @@ ul {
 .footer__list {
   display: flex;
   align-items: baseline;
+  max-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 0 15px;
 }
 
 .footer__list__logo-and-p {
