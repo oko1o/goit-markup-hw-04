@@ -74,7 +74,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: #2e2f42;
   padding: 24px 0;
   display: flex;
   flex-direction: column;
@@ -91,6 +91,10 @@ ul {
 }
 
 .nav__menu__link:focus {
+  color: #404bbf;
+}
+
+.nav__menu__link-active {
   color: #404bbf;
 }
 
@@ -141,6 +145,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .solutions-container {
